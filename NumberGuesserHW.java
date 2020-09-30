@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class NumberGuesser2HW {
+public class NumberGuesserHW {
 	private int level = 1;
 	private int strikes = 0;
 	private int maxStrikes = 5;
@@ -198,7 +198,7 @@ public class NumberGuesser2HW {
 	}
 
 	public static void main(String[] args) {
-		NumberGuesser2HW guesser = new NumberGuesser2HW();
+		NumberGuesserHW guesser = new NumberGuesserHW();
 		guesser.run();
 	}
 }
